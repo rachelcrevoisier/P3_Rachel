@@ -1,0 +1,95 @@
+body
+{
+    font-family: 'Arial', Trebuchet, sans-serif;
+    margin:0;
+	width:100%;
+}
+header, footer
+{ 
+	width:100%;
+	background-color:#579c87;
+	color:#fcca46;
+	display:flex;
+	margin:auto;
+	
+}
+footer
+{
+	display:flex;
+	justify-content: space-between;
+	font-size:20px;
+	height:60px;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+.header_titre
+{
+	display:flex;
+	flex-direction: row;
+	font-size:60px;
+	margin:auto;
+	font-weight: bold;
+}
+#menus
+{ 
+	max-width: 900px;
+	background-color:white;
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+	padding:15px;
+}
+.menus_cartes
+{ 
+	max-width: 900px;
+	height :1000px;
+	background-color:white;
+	display:flex;
+	margin:auto;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding:15px;
+	text-align:center;
+}
+.menu_note_enchantee, .menu_chic_francais, .menu_delice_des_papilles, .menu_palette_du_gout
+{
+	box-shadow: 1px 1px 10px #e4e5e4;
+	width: 30%;
+	height:400px;
+	padding:25px;
+	margin:10px;
+}
+.menu_note_enchantee
+{
+	background:#fcdfdb;
+}
+.menu_chic_francais
+{
+	background:#fff5fe;
+}
+.menu_delice_des_papilles
+{
+	background:#f9f9f9;
+}
+.menu_palette_du_gout
+{
+	background:#fdfffd;
+}
+.menus_bouton {
+    background: #579c87;
+    color: #fcca46;
+    font-size: 20px;
+	margin:auto;
+    cursor: pointer;
+    padding: 1.05rem 3.40rem;
+	border-radius: 1rem;
+	transition: all 400ms;
+    transform: scale(1);
+}
+.menus_bouton:hover {
+        transform: scale(1.05);
+		background-color: pink;
+    }
