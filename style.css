@@ -11,13 +11,14 @@ header, footer
 	color:#fcca46;
 	display:flex;
 	margin:auto;
+	padding:15px;
 	
 }
 footer
 {
 	display:flex;
 	justify-content: space-between;
-	font-size:20px;
+	font-size:30px;
 	height:60px;
 	position:fixed;
 	left:0;
@@ -84,6 +85,7 @@ footer
     font-size: 20px;
 	margin:auto;
     cursor: pointer;
+	padding-bottom:190px;
     padding: 1.05rem 3.40rem;
 	border-radius: 1rem;
 	transition: all 400ms;
