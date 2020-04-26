@@ -17,14 +17,15 @@ header, footer
 	color:#fcca46;
 	display:flex;
 	margin:auto;
-	padding:15px;
+	padding-top:15px;
+	padding-bottom:25px;
 }
 footer
 {
 	display:flex;
 	justify-content: space-between;
-	font-size:30px;
-	height:40px;
+	font-size:25px;
+	height:35px;
 	position:fixed;
 	left:0;
 	bottom:0;
@@ -33,15 +34,6 @@ footer a
 {
 	text-decoration:none;
 	color:#fcca46;
-}
-.mentions, .contacts
-{
-	margin-left: 3%;
-  margin-right: 3%;
-}
-footer .mentions:hover,
-footer .contacts:hover {
-  -webkit-animation: wiggle 0.1s infinite;
 }
 
 .header_titre
@@ -77,11 +69,17 @@ footer .contacts:hover {
 }
 .menu_note_enchantee, .menu_chic_francais, .menu_delice_des_papilles, .menu_palette_du_gout
 {
+	display:flex;
+	margin:auto;
+	 flex-direction: column;
+    justify-content: center;
 	box-shadow: 1px 1px 10px #e4e5e4;
 	width: 30%;
 	height:400px;
 	padding:25px;
 	margin:10px;
+	font-size:20px;
+
 }
 .menu_note_enchantee
 {
@@ -90,15 +88,76 @@ footer .contacts:hover {
 .menu_chic_francais
 {
 	background:#fff5fe;
+	
 }
 .menu_delice_des_papilles
 {
 	background:#f9f9f9;
+	
 }
 .menu_palette_du_gout
 {
 	background:#fdfffd;
 }
+.titre_palette_du_gout, .titre_delice_des_papilles, .titre_chic_francais, .titre_note_enchantee {
+    
+    
+	transition: all 400ms;
+    transform: scale(1);
+}
+.titre_palette_du_gout:hover, .titre_delice_des_papilles:hover, .titre_chic_francais:hover, .titre_note_enchantee:hover {
+       
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 0.5;
+  transition: transform 1s;
+}
+.titre_chic_francais h2{
+	background-image: linear-gradient(to right, #d8852e, #905bfd);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family: Parisienne,verdana;
+}
+.titre_chic_francais p{
+	color:#c77412;
+	font-size:25px;
+}
+.titre_note_enchantee h2{
+	color:#3c1218;
+	font-family:Alex Brush, verdana;
+}
+.titre_note_enchantee p{
+	color:#3c1218;
+	font-size:25px;
+	font-family: Shadows Into Light, verdana;
+}
+.titre_delice_des_papilles h2{
+	background-image: linear-gradient(to right, #0431df, #0887fb);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family:Dancing Script, verdana;
+	
+}
+.titre_delice_des_papilles p{
+	color:#0887fb;
+	font-family: Shadows Into Light, verdana;
+	font-size:25px;
+}
+.titre_palette_du_gout h2{
+	background-image: linear-gradient(to right, #3d9339, #bfff7e);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family: Shadows Into Light, verdana;
+	
+}
+.titre_palette_du_gout p{
+	background-image: linear-gradient(to right, #3d9339, #bfff7e);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family: Shadows Into Light, verdana;
+	font-size:25px;
+}
+
 .menus_bouton {
     background: #579c87;
     color: #fcca46;
@@ -112,15 +171,55 @@ footer .contacts:hover {
 }
 .menus_bouton:hover {
         transform: scale(1.05);
-		background-color: pink;
+		
     }
 	
 .fa-music {
-  padding-top: 120px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+
   background: linear-gradient(to right, #f05160, #f78f6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3.5em;
+  font-size: 40px;
      }
+	 
+@-webkit-keyframes wiggle {
+  1% {
+    transform: translateX(-3%);
+  }
+  3% {
+    transform: translateX(3%);
+  }
+  5% {
+    transform: translateX(-3%);
+  }
+  7% {
+    transform: translateX(3%);
+  }
+  8%, 100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes wiggle {
+  1% {
+    transform: translateX(-3%);
+  }
+  3% {
+    transform: translateX(3%);
+  }
+  5% {
+    transform: translateX(-3%);
+  }
+  7% {
+    transform: translateX(3%);
+  }
+  8%, 100% {
+    transform: translateX(0%);
+  }
+}
+footer p {
+  -webkit-animation: wiggle 3000ms infinite;
+          animation: wiggle 3000ms infinite;
+  padding: 0.7em;
+  margin: 0;
+}
