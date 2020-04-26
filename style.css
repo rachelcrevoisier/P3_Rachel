@@ -1,8 +1,14 @@
-body
-{
-    font-family: 'Arial', Trebuchet, sans-serif;
-    margin:0;
-	width:100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family:arial;
+}
+body a,
+html a {
+  text-decoration: none;
 }
 header, footer
 { 
@@ -24,6 +30,11 @@ footer
 	left:0;
 	bottom:0;
 }
+.mentions, .contacts
+{
+	margin-left: 3%;
+  margin-right: 3%;
+}
 .header_titre
 {
 	display:flex;
@@ -44,7 +55,7 @@ footer
 .menus_cartes
 { 
 	max-width: 900px;
-	height :1000px;
+	height :900px;
 	background-color:white;
 	display:flex;
 	margin:auto;
@@ -83,9 +94,8 @@ footer
     background: #579c87;
     color: #fcca46;
     font-size: 20px;
-	margin:auto;
+	margin: 100px auto;
     cursor: pointer;
-	padding-bottom:190px;
     padding: 1.05rem 3.40rem;
 	border-radius: 1rem;
 	transition: all 400ms;
