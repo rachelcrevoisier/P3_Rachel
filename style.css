@@ -18,23 +18,32 @@ header, footer
 	display:flex;
 	margin:auto;
 	padding:15px;
-	
 }
 footer
 {
 	display:flex;
 	justify-content: space-between;
 	font-size:30px;
-	height:60px;
+	height:40px;
 	position:fixed;
 	left:0;
 	bottom:0;
+}
+footer a
+{
+	text-decoration:none;
+	color:#fcca46;
 }
 .mentions, .contacts
 {
 	margin-left: 3%;
   margin-right: 3%;
 }
+footer .mentions:hover,
+footer .contacts:hover {
+  -webkit-animation: wiggle 0.1s infinite;
+}
+
 .header_titre
 {
 	display:flex;
@@ -105,3 +114,13 @@ footer
         transform: scale(1.05);
 		background-color: pink;
     }
+	
+.fa-music {
+  padding-top: 120px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(to right, #f05160, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5em;
+     }
