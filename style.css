@@ -53,9 +53,10 @@ footer a
 	flex-direction:column;
 	padding:15px;
 }
+
 .menus_cartes
 { 
-	max-width: 900px;
+	width: 900px;
 	height :900px;
 	background-color:white;
 	display:flex;
@@ -67,6 +68,7 @@ footer a
 	padding:15px;
 	text-align:center;
 }
+
 .menu_note_enchantee, .menu_chic_francais, .menu_delice_des_papilles, .menu_palette_du_gout
 {
 	display:flex;
@@ -81,6 +83,7 @@ footer a
 	font-size:20px;
 
 }
+
 .menu_note_enchantee
 {
 	background:#fcdfdb;
