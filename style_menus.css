@@ -1,0 +1,62 @@
+#main
+{
+	width:100%;
+	margin:auto;
+}
+.detail_menu_note_enchantee
+{ 
+	max-width: 900px;
+	background-color:white;
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+	padding:15px;
+	box-shadow: 1px 1px 10px #e4e5e4;
+	background:#fcdfdb;
+}
+.detail_menus_entree, .detail_menus_plat, .detail_menus_dessert,.detail_menus_footer
+{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	font-size:18px;
+	padding-bottom:40px;
+	justify-content: space-between;
+	width:90%;
+	font-family: Shadows Into Light, verdana;
+}
+.detail_menus_titre
+{
+	font-size:20px;
+	text-align:center;
+}
+.detail_menus_header
+{
+	font-size:30px;
+	text-align:center;
+	color:#3c1218;
+	font-family:Alex Brush, verdana;
+}
+
+.intitule_detail
+{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	margin:auto;
+	width:90%;
+	justify-content:space-between;
+}
+		img
+		{
+			
+			width:200px;
+			height:8px;
+		}
+		.titre_intitule
+		{
+			
+			font-size:30px;
+			font-family:Alex Brush, verdana;
+			
+		}
