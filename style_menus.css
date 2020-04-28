@@ -13,8 +13,26 @@
 	padding:15px;
 	box-shadow: 1px 1px 10px #e4e5e4;
 	background:#fcdfdb;
+	margin-bottom:105px;
 }
-.detail_menus_entree, .detail_menus_plat, .detail_menus_dessert,.detail_menus_footer
+.detail_menus_footer
+{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	font-size:18px;
+	padding-bottom:20px;
+	justify-content: center;
+	align-items: center;
+	width:90%;
+	font-family: Shadows Into Light, verdana;
+}
+
+.detail_menus_footer p
+{
+	padding-left:10px;
+}
+.detail_menus_entree, .detail_menus_plat, .detail_menus_dessert
 {
 	display:flex;
 	flex-direction:row;
