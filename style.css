@@ -44,6 +44,11 @@ footer a
 	margin:auto;
 	font-weight: bold;
 }
+.header_titre a
+{
+	text-decoration:none;
+	color:#fcca46;
+}
 #menus
 { 
 	max-width: 900px;
