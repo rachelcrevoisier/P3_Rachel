@@ -44,19 +44,18 @@
 	flex-direction: row;
 	align-items:center;
 	margin:auto;
-	width:90%;
 	justify-content:space-between;
 }
 		img
 		{
-			
-			width:200px;
+			width:33%;
 			height:8px;
 		}
 		.titre_intitule
 		{
-			
+			width:33%;
 			font-size:30px;
 			font-family:Alex Brush, verdana;
+			text-align:center;
 			
 		}
