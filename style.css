@@ -253,7 +253,25 @@ footer p{
 			
 			}
 			}
-		
+	@-webkit-keyframes prochainement{
+		 from {
+        transform: translateY(0px);
+		opacity: 1;
+    }
+
+		33%{
+			opacity: 0.3;
+			transform:translateY(1px)
+				}
+			67%{
+				opacity: 0.6;
+				transform:translateY(2px)
+			}
+			100%
+			{transform:translateY(3px)
+			
+			}
+			}	
 		
 		.anim_pt:nth-child(1)
 		{animation-delay:.25s
