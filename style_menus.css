@@ -5,7 +5,7 @@
 }
 .detail_menu_note_enchantee
 { 
-	max-width: 900px;
+	max-width: 50%;
 	background-color:white;
 	display:flex;
 	margin:auto;
@@ -14,6 +14,19 @@
 	box-shadow: 1px 1px 10px #e4e5e4;
 	background:#fcdfdb;
 	margin-bottom:105px;
+}
+.detail_menu_chic_francais
+{ 
+	max-width: 50%;
+	background-color:white;
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+	padding:15px;
+	box-shadow: 1px 1px 10px #e4e5e4;
+	background:#fff5fe;
+	margin-bottom:105px;
+	font-family: Parisienne,verdana;
 }
 .detail_menus_footer
 {
@@ -48,20 +61,28 @@
 	font-size:20px;
 	text-align:center;
 }
-.detail_menus_header
+.detail_menus_header_note
 {
 	font-size:30px;
 	text-align:center;
 	color:#3c1218;
 	font-family:Alex Brush, verdana;
 }
-
-.intitule_detail
+.detail_menus_header_chic_francais{
+	background-image: linear-gradient(to right, #d8852e, #905bfd);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family: Parisienne,verdana;
+	font-size:50px;
+	text-align:center;
+}
+.intitule_detail_note
 {
 	display:flex;
 	flex-direction: row;
 	align-items:center;
 	margin:auto;
+	width:90%;
 	justify-content:space-between;
 }
 		img
@@ -69,11 +90,34 @@
 			width:33%;
 			height:8px;
 		}
-		.titre_intitule
+		.titre_intitule_note
 		{
 			width:33%;
 			font-size:30px;
 			font-family:Alex Brush, verdana;
+			text-align:center;
+			
+		}
+.intitule_detail_chic_francais
+{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	margin:auto;
+	width:90%;
+	justify-content:space-between;
+}
+		.intitule_detail_chic_francais img
+		{
+			width:25%;
+			height:8px;
+			
+		}
+		.titre_intitule_chic_francais
+		{
+			width:50%;
+			font-size:30px;
+			font-family: Parisienne,verdana;
 			text-align:center;
 			
 		}
