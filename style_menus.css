@@ -71,6 +71,15 @@
 	justify-content: space-between;
 	width:90%;
 }
+.detail_menus_entree_papilles, .detail_menus_plat_papilles, .detail_menus_dessert_papilles
+{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	padding-bottom:40px;
+	justify-content: space-between;
+	width:75%;
+}
 .detail_menus_titre
 {
 	font-size:20px;
