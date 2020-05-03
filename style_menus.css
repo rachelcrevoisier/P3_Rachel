@@ -14,6 +14,8 @@
 	box-shadow: 1px 1px 10px #e4e5e4;
 	background:#fcdfdb;
 	margin-bottom:105px;
+	font-family:Alex Brush, verdana;
+	font-size : 18px;
 }
 .detail_menu_chic_francais
 { 
@@ -27,6 +29,21 @@
 	background:#fff5fe;
 	margin-bottom:105px;
 	font-family: Parisienne,verdana;
+	font-size:18px;
+}
+.detail_menu_delice_papilles
+{ 
+	max-width: 50%;
+	background-color:white;
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+	padding:15px;
+	box-shadow: 1px 1px 10px #e4e5e4;
+	background:#edefef;
+	margin-bottom:105px;
+	font-family:Dancing Script, verdana;
+	font-size:18px;
 }
 .detail_menus_footer
 {
@@ -50,11 +67,9 @@
 	display:flex;
 	flex-direction:row;
 	margin:auto;
-	font-size:18px;
 	padding-bottom:40px;
 	justify-content: space-between;
 	width:90%;
-	font-family: Shadows Into Light, verdana;
 }
 .detail_menus_titre
 {
@@ -73,6 +88,14 @@
 	color: transparent;
 	-webkit-background-clip: text;
 	font-family: Parisienne,verdana;
+	font-size:50px;
+	text-align:center;
+}
+.detail_menus_header_delice_papilles{
+	background-image: linear-gradient(to right, #022ddf, #0889fb);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family:Dancing Script, verdana;
 	font-size:50px;
 	text-align:center;
 }
@@ -106,6 +129,7 @@
 	margin:auto;
 	width:90%;
 	justify-content:space-between;
+	
 }
 		.intitule_detail_chic_francais img
 		{
@@ -118,6 +142,30 @@
 			width:50%;
 			font-size:30px;
 			font-family: Parisienne,verdana;
+			text-align:center;
+			
+		}
+.intitule_detail_delice_papilles
+{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	margin:auto;
+	width:90%;
+	justify-content:space-between;
+	
+}
+		.intitule_detail_delice_papilles img
+		{
+			width:25%;
+			height:8px;
+			
+		}
+		.titre_intitule_delice_papilles
+		{
+			width:50%;
+			font-size:30px;
+			font-family:Dancing Script, verdana;
 			text-align:center;
 			
 		}
