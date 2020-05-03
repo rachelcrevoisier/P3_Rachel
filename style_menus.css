@@ -45,6 +45,20 @@
 	font-family:Dancing Script, verdana;
 	font-size:18px;
 }
+.detail_menu_palette_gout
+{ 
+	max-width: 50%;
+	background-color:white;
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+	padding:15px;
+	box-shadow: 1px 1px 10px #e4e5e4;
+	background:#edefef;
+	margin-bottom:105px;
+	font-family: Shadows Into Light, verdana;
+	font-size:18px;
+}
 .detail_menus_footer
 {
 	display:flex;
@@ -80,6 +94,15 @@
 	justify-content: space-between;
 	width:75%;
 }
+.detail_menus_entree_palette_gout, .detail_menus_plat_palette_gout, .detail_menus_dessert_palette_gout
+{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	padding-bottom:40px;
+	justify-content: space-between;
+	width:75%;
+}
 .detail_menus_titre
 {
 	font-size:20px;
@@ -105,6 +128,14 @@
 	color: transparent;
 	-webkit-background-clip: text;
 	font-family:Dancing Script, verdana;
+	font-size:50px;
+	text-align:center;
+}
+.detail_menus_header_palette_gout{
+	background-image: linear-gradient(to right, #3d9339, #bfff7e);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-family: Shadows Into Light, verdana;
 	font-size:50px;
 	text-align:center;
 }
@@ -175,6 +206,30 @@
 			width:50%;
 			font-size:30px;
 			font-family:Dancing Script, verdana;
+			text-align:center;
+			
+		}
+.intitule_detail_palette_gout
+{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	margin:auto;
+	width:90%;
+	justify-content:space-between;
+	
+}
+		.intitule_detail_palette_gout img
+		{
+			width:25%;
+			height:8px;
+			
+		}
+		.titre_intitule_palette_gout
+		{
+			width:50%;
+			font-size:30px;
+			font-family: Shadows Into Light, verdana;
 			text-align:center;
 			
 		}
