@@ -222,9 +222,13 @@ footer a
     transform: translateX(0%);
   }
 }
-footer p {
+footer p:hover {
   -webkit-animation: wiggle 3000ms infinite;
           animation: wiggle 3000ms infinite;
+  padding: 0.7em;
+  margin: 0;
+}
+footer p{
   padding: 0.7em;
   margin: 0;
 }
