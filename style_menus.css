@@ -2,6 +2,7 @@
 {
 	width:100%;
 	margin:auto;
+	background:white;
 }
 .detail_menu_note_enchantee
 { 
@@ -29,16 +30,16 @@
 	padding:15px;
 	box-shadow: 1px 1px 10px #e4e5e4;
 	background:#fcdfdb;
-	margin-bottom:55px;
+	margin-bottom:5px;
 	font-family:Alex Brush, verdana;
-	font-size : 11px;
+	font-size : 13px;
 	}	
 }
 @media screen and (max-width: 320px) 
 {
 	.detail_menu_note_enchantee
 	{ 
-	max-width: 100%;
+	max-width: 98%;
 	background-color:white;
 	display:flex;
 	margin:auto;
