@@ -132,21 +132,42 @@
 	flex-direction:row;
 	margin:auto;
 	padding-bottom:40px;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	width:90%;
 }
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 368px) 
 {
 	.detail_menus_entree, .detail_menus_plat, .detail_menus_dessert
 {
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	margin:auto;
-	padding-bottom:20px;
-	justify-content: space-between;
+	padding-bottom:40px;
+	justify-content: center;
+	width:100%;
+	font-size:12px;
 	
 }
 }
+
+.intitule
+{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	justify-content: space-between;
+	width:70%;
+}
+.tarif
+{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	justify-content: flex-end;
+	width:30%;
+}
+
 .detail_menus_entree_papilles, .detail_menus_plat_papilles, .detail_menus_dessert_papilles
 {
 	display:flex;
