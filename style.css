@@ -233,29 +233,29 @@ footer p{
     }
 @-webkit-keyframes masuperanimation { /* Safari, Opera, Chrome */
     0% {
-        transform: translateY(0px);
+        color: #fcca46;
     }
 
     50% {
-        transform: translateY(-5px);
+        color:#ffe5a2;
     }
 
     100% {
-        transform: translateY(0px);
+        color: white;
     }
 }
 
 @keyframes masuperanimation { /* Tous les autres navigateurs */
     0% {
-        transform: translateY(0px);
+        color: #fcca46;
     }
 
     50% {
-        transform: translateY(-2px);
+        color:#fcca46;
     }
 
     100% {
-        transform: translateY(0px);
+        color: #579c87;
     }
 }
 .anim_pt {
