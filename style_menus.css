@@ -1,13 +1,17 @@
-#main
-{
-	width:100%;
+#detail_menus
+{ 
+	max-width: 100%;
+	background-color:white;
+	display:flex;
 	margin:auto;
-	background:white;
+	flex-direction:column;
+	padding:15px;
 }
+
 .detail_menu_note_enchantee
 { 
 	max-width: 50%;
-	background-color:white;
+	height:800px;
 	display:flex;
 	margin:auto;
 	flex-direction:column;
@@ -18,40 +22,7 @@
 	font-family:Alex Brush, verdana;
 	font-size : 18px;
 }
-@media screen and (max-width: 768px) 
-{
-	.detail_menu_note_enchantee
-	{ 
-	max-width: 80%;
-	background-color:white;
-	display:flex;
-	margin:auto;
-	flex-direction:column;
-	padding:15px;
-	box-shadow: 1px 1px 10px #e4e5e4;
-	background:#fcdfdb;
-	margin-bottom:5px;
-	font-family:Alex Brush, verdana;
-	font-size : 13px;
-	}	
-}
-@media screen and (max-width: 320px) 
-{
-	.detail_menu_note_enchantee
-	{ 
-	max-width: 98%;
-	background-color:white;
-	display:flex;
-	margin:auto;
-	flex-direction:column;
-	padding:5px;
-	box-shadow: 1px 1px 10px #e4e5e4;
-	background:#fcdfdb;
-	margin-bottom:5px;
-	font-family:Alex Brush, verdana;
-	font-size : 11px;
-	}	
-}
+
 .detail_menu_chic_francais
 { 
 	max-width: 50%;
@@ -106,21 +77,6 @@
 	width:90%;
 	font-family: Shadows Into Light, verdana;
 }
-@media screen and (max-width: 768px) 
-{
-.detail_menus_footer
-{
-	display:flex;
-	flex-direction:row;
-	margin:auto;
-	font-size:10px;
-	padding-bottom:10px;
-	justify-content: center;
-	align-items: center;
-	width:90%;
-	font-family: Shadows Into Light, verdana;
-}
-}
 
 .detail_menus_footer p
 {
@@ -135,20 +91,6 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width:90%;
-}
-@media screen and (max-width: 368px) 
-{
-	.detail_menus_entree, .detail_menus_plat, .detail_menus_dessert
-{
-	display:flex;
-	flex-direction:column;
-	margin:auto;
-	padding-bottom:40px;
-	justify-content: center;
-	width:100%;
-	font-size:12px;
-	
-}
 }
 
 .intitule
@@ -191,14 +133,7 @@
 	font-size:20px;
 	text-align:center;
 }
-@media screen and (max-width: 768px) 
-{
-.detail_menus_titre
-{
-	font-size:10px;
-	text-align:center;
-}
-}
+
 .detail_menus_header_note
 {
 	font-size:30px;
@@ -206,16 +141,7 @@
 	color:#3c1218;
 	font-family:Alex Brush, verdana;
 }
-@media screen and (max-width: 768px) 
-{
-.detail_menus_header_note
-{
-	font-size:15px;
-	text-align:center;
-	color:#3c1218;
-	font-family:Alex Brush, verdana;
-}
-}
+
 .detail_menus_header_chic_francais{
 	background-image: linear-gradient(to right, #d8852e, #905bfd);
 	color: transparent;
@@ -262,31 +188,7 @@
 			text-align:center;
 			
 		}
-@media screen and (max-width: 768px) 
-{
-.intitule_detail_note
-{
-	display:flex;
-	flex-direction: row;
-	align-items:center;
-	margin:auto;
-	width:90%;
-	justify-content:space-between;
-}
-		img
-		{
-			width:20%;
-			height:8px;
-		}
-		.titre_intitule_note
-		{
-			width:40%;
-			font-size:15px;
-			font-family:Alex Brush, verdana;
-			text-align:center;
-			
-		}
-}
+
 .intitule_detail_chic_francais
 {
 	display:flex;
