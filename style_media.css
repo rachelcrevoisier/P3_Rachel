@@ -1,35 +1,11 @@
-@media screen and (max-width: 798px) 
+@media screen and (max-width: 768px) 
 {
-
-	header, footer
-	{ 
-	width:100%;
-	background-color:#579c87;
-	color:#fcca46;
-	display:flex;
-	margin:auto;
-	padding-top:5px;
-	padding-bottom:15px;
-}
-footer
-{
-	display:flex;
-	justify-content: space-between;
-	font-size:15px;
-	height:20px;
-	
-}
-footer a
-{
-	text-decoration:none;
-	color:#fcca46;
-}
 
 .header_titre
 {
 	display:flex;
 	flex-direction: row;
-	font-size:30px;
+	font-size:20px;
 	margin:auto;
 	font-weight: bold;
 }
@@ -38,165 +14,21 @@ footer a
 	text-decoration:none;
 	color:#fcca46;
 }
-#menus
-{ 
-	max-width: 70%;
-	background-color:white;
-	display:flex;
-	margin:auto;
-	flex-direction:column;
-	padding:15px;
-	height:520px;
-}
-
-.menus_cartes
-{ 
-	width: 100%;
-	height :300px;
-	background-color:white;
-	display:flex;
-	margin:auto;
-	flex-direction:row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding:10px;
-	text-align:center;
-}
-
-.menu_note_enchantee, .menu_chic_francais, .menu_delice_des_papilles, .menu_palette_du_gout
+footer
 {
 	display:flex;
-	margin:auto;
-	flex-direction: row;
-    justify-content: center;
-	box-shadow: 1px 1px 10px #e4e5e4;
-	width: 30%;
-	height:120px;
-	padding:15px;
-	margin:10px;
-	font-size:12px;
-}
-
-.menu_note_enchantee
-{
-	background:#fcdfdb;
-}
-.menu_chic_francais
-{
-	background:#fff5fe;
-	
-}
-.menu_delice_des_papilles
-{
-	background:#f9f9f9;
-	
-}
-.menu_palette_du_gout
-{
-	background:#fdfffd;
-	
-}
-.titre_palette_du_gout, .titre_delice_des_papilles, .titre_chic_francais, .titre_note_enchantee {    
-	transition: all 400ms;
-    transform: scale(1);
-}
-.titre_palette_du_gout:hover, .titre_delice_des_papilles:hover, .titre_chic_francais:hover, .titre_note_enchantee:hover {
-       
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  opacity: 0.5;
-  transition: transform 1s;
-}
-.titre_chic_francais h2{
-	background-image: linear-gradient(to right, #d8852e, #905bfd);
-	color: transparent;
-	-webkit-background-clip: text;
-	font-family: Parisienne,verdana;
-}
-.titre_chic_francais p{
-	color:#c77412;
+	justify-content: space-between;
 	font-size:15px;
-}
-.titre_note_enchantee h2{
-	color:#3c1218;
-	font-family:Alex Brush, verdana;
-}
-.titre_note_enchantee p{
-	color:#3c1218;
-	font-size:15px;
-	font-family: Shadows Into Light, verdana;
-}
-.titre_delice_des_papilles h2{
-	background-image: linear-gradient(to right, #0431df, #0887fb);
-	color: transparent;
-	-webkit-background-clip: text;
-	font-family:Dancing Script, verdana;
+	height:25px;
+	position:fixed;
 	
+	left:0;
+	bottom:0;
 }
-.titre_delice_des_papilles p{
-	color:#0887fb;
-	font-family: Shadows Into Light, verdana;
-	font-size:15px;
-}
-.titre_palette_du_gout h2{
-	background-image: linear-gradient(to right, #3d9339, #bfff7e);
-	color: transparent;
-	-webkit-background-clip: text;
-	font-family: Shadows Into Light, verdana;
-	
-}
-.titre_palette_du_gout p{
-	background-image: linear-gradient(to right, #3d9339, #bfff7e);
-	color: transparent;
-	-webkit-background-clip: text;
-	font-family: Shadows Into Light, verdana;
-	font-size:15px;
-}
-
-
-.fa-music {
-
-  background: linear-gradient(to right, #f05160, #f78f6a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 20px;
-     }
-	 
-@-webkit-keyframes wiggle {
-  1% {
-    transform: translateX(-3%);
-  }
-  3% {
-    transform: translateX(3%);
-  }
-  5% {
-    transform: translateX(-3%);
-  }
-  7% {
-    transform: translateX(3%);
-  }
-  8%, 100% {
-    transform: translateX(0%);
-  }
-}
-
-@keyframes wiggle {
-  1% {
-    transform: translateX(-3%);
-  }
-  3% {
-    transform: translateX(3%);
-  }
-  5% {
-    transform: translateX(-3%);
-  }
-  7% {
-    transform: translateX(3%);
-  }
-  8%, 100% {
-    transform: translateX(0%);
-  }
+footer a
+{
+	text-decoration:none;
+	color:#fcca46;
 }
 footer p:hover {
   -webkit-animation: wiggle 3000ms infinite;
@@ -207,114 +39,6 @@ footer p:hover {
 footer p{
   padding: 0.7em;
   margin: 0;
-}
-.menus_bouton {
-    background: #579c87;
-    color: #fcca46;
-    font-size: 15px;
-	margin: 50px auto;
-    cursor: pointer;
-    padding: 10px 25px;
-	border-radius: 1rem;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-    }
-	.anim_pt{
-		animation:prochainement 2s linear infinite ;
-		
-		}
-	@keyframes prochainement{
-		 from {
-        transform: translateY(0px);
-		opacity: 1;
-    }
-
-		33%{
-			opacity: 0.3;
-			transform:translateY(1px)
-				}
-			67%{
-				opacity: 0.6;
-				transform:translateY(2px)
-			}
-			100%
-			{transform:translateY(3px)
-			
-			}
-			}
-	@-webkit-keyframes prochainement{
-		 from {
-        transform: translateY(0px);
-		opacity: 0;
-    }
-
-		33%{
-			opacity: 0.3;
-			transform:translateY(1px)
-				}
-			67%{
-				opacity: 0.6;
-				transform:translateY(2px)
-			}
-			100%
-			{transform:translateY(3px)
-			
-			}
-			}	
-		
-		.anim_pt:nth-child(1)
-		{animation-delay:.25s
-		}
-		.anim_pt:nth-child(2)
-		{animation-delay:.50s
-		}
-		.anim_pt:nth-child(3)
-		{animation-delay:.75s
-		}
-
-}
-@media screen and (max-width: 320px) 
-{
-
-	header, footer
-	{ 
-	width:100%;
-	background-color:#579c87;
-	color:#fcca46;
-	display:flex;
-	margin:auto;
-	padding-top:5px;
-	padding-bottom:10px;
-}
-footer
-{
-	display:flex;
-	justify-content: space-between;
-	font-size:10px;
-	height:15px;
-	left:0;
-	bottom:0;
-	
-}
-footer a
-{
-	text-decoration:none;
-	color:#fcca46;
-}
-
-.header_titre
-{
-	display:flex;
-	flex-direction: row;
-	font-size:10px;
-	margin:auto;
-	font-weight: bold;
-}
-.header_titre a
-{
-	text-decoration:none;
-	color:#fcca46;
 }
 #menus
 { 
@@ -324,12 +48,10 @@ footer a
 	margin:auto;
 	flex-direction:column;
 	padding:15px;
+	height:850px;
 }
-
 .menus_cartes
 { 
-	width: 100%;
-
 	background-color:white;
 	display:flex;
 	margin:auto;
@@ -337,25 +59,39 @@ footer a
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	padding:10px;
+	padding:15px;
 	text-align:center;
+	width:90%;
+	
 }
-
 .menu_note_enchantee, .menu_chic_francais, .menu_delice_des_papilles, .menu_palette_du_gout
 {
 	display:flex;
 	margin:auto;
-	flex-direction: row;
+	flex-direction: column;
     justify-content: center;
 	box-shadow: 1px 1px 10px #e4e5e4;
-	width: 30%;
-	height:120px;
+	width: 40%;
 	padding:15px;
 	margin:10px;
-	font-size:12px;
+	font-size:20px;
+	height:250px;
 }
-
-.menu_note_enchantee
+.menus_bouton {
+    background: #579c87;
+    color: #fcca46;
+    font-size: 15px;
+	margin: 100px auto;
+    cursor: pointer;
+    padding: 0.25rem 1.40rem;
+	border-radius: 1rem;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:100px;
+	
+    }
+	.menu_note_enchantee
 {
 	background:#fcdfdb;
 }
@@ -390,18 +126,20 @@ footer a
 	color: transparent;
 	-webkit-background-clip: text;
 	font-family: Parisienne,verdana;
+	font-size:25px;
 }
 .titre_chic_francais p{
 	color:#c77412;
-	font-size:15px;
+	font-size:20px;
 }
 .titre_note_enchantee h2{
 	color:#3c1218;
 	font-family:Alex Brush, verdana;
+	font-size:25px;
 }
 .titre_note_enchantee p{
 	color:#3c1218;
-	font-size:15px;
+	font-size:20px;
 	font-family: Shadows Into Light, verdana;
 }
 .titre_delice_des_papilles h2{
@@ -409,18 +147,20 @@ footer a
 	color: transparent;
 	-webkit-background-clip: text;
 	font-family:Dancing Script, verdana;
+	font-size:25px;
 	
 }
 .titre_delice_des_papilles p{
 	color:#0887fb;
 	font-family: Shadows Into Light, verdana;
-	font-size:15px;
+	font-size:20px;
 }
 .titre_palette_du_gout h2{
 	background-image: linear-gradient(to right, #3d9339, #bfff7e);
 	color: transparent;
 	-webkit-background-clip: text;
 	font-family: Shadows Into Light, verdana;
+	font-size:25px;
 	
 }
 .titre_palette_du_gout p{
@@ -428,18 +168,59 @@ footer a
 	color: transparent;
 	-webkit-background-clip: text;
 	font-family: Shadows Into Light, verdana;
-	font-size:15px;
+	font-size:20px;
 }
-
 
 .fa-music {
 
   background: linear-gradient(to right, #f05160, #f78f6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 20px;
+  font-size: 40px;
      }
-	 
+
+@-webkit-keyframes animtroispoints { /* Safari, Opera, Chrome */
+    0% {
+        color: #fcca46;
+    }
+
+    50% {
+        color:#ffe5a2;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@keyframes animtroispoints { /* Tous les autres navigateurs */
+    0% {
+        color: #fcca46;
+    }
+
+    50% {
+        color:#fcca46;
+    }
+
+    100% {
+        color: #579c87;
+    }
+}
+.anim_pt {
+    
+	-webkit-animation: animtroispoints 1s infinite; /* Safari, Opera, Chrome */
+    animation: animtroispoints 1s infinite; /* Tous les autres navigateurs */
+    }
+
+		.anim_pt:nth-child(1)
+		{animation-delay:.25s
+		}
+		.anim_pt:nth-child(2)
+		{animation-delay:.50s
+		}
+		.anim_pt:nth-child(3)
+		{animation-delay:.75s
+		}
 @-webkit-keyframes wiggle {
   1% {
     transform: translateX(-3%);
@@ -475,79 +256,5 @@ footer a
     transform: translateX(0%);
   }
 }
-footer p:hover {
-  -webkit-animation: wiggle 3000ms infinite;
-          animation: wiggle 3000ms infinite;
-  padding: 0.7em;
-  margin: 0;
-}
-footer p{
-  padding: 0.7em;
-  margin: 0;
-}
-.menus_bouton {
-    background: #579c87;
-    color: #fcca46;
-    font-size: 15px;
-	margin: 50px auto;
-    cursor: pointer;
-    padding: 10px 25px;
-	border-radius: 1rem;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-    }
-	.anim_pt{
-		animation:prochainement 2s linear infinite ;
-		
-		}
-	@keyframes prochainement{
-		 from {
-        transform: translateY(0px);
-		opacity: 1;
-    }
-
-		33%{
-			opacity: 0.3;
-			transform:translateY(1px)
-				}
-			67%{
-				opacity: 0.6;
-				transform:translateY(2px)
-			}
-			100%
-			{transform:translateY(3px)
-			
-			}
-			}
-	@-webkit-keyframes prochainement{
-		 from {
-        transform: translateY(0px);
-		opacity: 0;
-    }
-
-		33%{
-			opacity: 0.3;
-			transform:translateY(1px)
-				}
-			67%{
-				opacity: 0.6;
-				transform:translateY(2px)
-			}
-			100%
-			{transform:translateY(3px)
-			
-			}
-			}	
-		
-		.anim_pt:nth-child(1)
-		{animation-delay:.25s
-		}
-		.anim_pt:nth-child(2)
-		{animation-delay:.50s
-		}
-		.anim_pt:nth-child(3)
-		{animation-delay:.75s
-		}
 
 }
