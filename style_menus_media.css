@@ -3,7 +3,7 @@
 #detail_menus
 { 
 	max-width: 100%;
-	background-color:red;
+	background-color:white;
 	display:flex;
 	margin:auto;
 	flex-direction:column;
