@@ -10,6 +10,10 @@ body a,
 html a {
   text-decoration: none;
 }
+body
+{
+	background:white;
+}
 header, footer
 { 
 	width:100%;
@@ -20,22 +24,6 @@ header, footer
 	padding-top:15px;
 	padding-bottom:25px;
 }
-footer
-{
-	display:flex;
-	justify-content: space-between;
-	font-size:25px;
-	height:35px;
-	position:fixed;
-	left:0;
-	bottom:0;
-}
-footer a
-{
-	text-decoration:none;
-	color:#fcca46;
-}
-
 .header_titre
 {
 	display:flex;
@@ -49,6 +37,32 @@ footer a
 	text-decoration:none;
 	color:#fcca46;
 }
+footer
+{
+	display:flex;
+	justify-content: space-between;
+	font-size:25px;
+	height:35px;
+	position:fixed;
+	
+	left:0;
+	bottom:0;
+}
+footer a
+{
+	text-decoration:none;
+	color:#fcca46;
+}
+footer p:hover {
+  -webkit-animation: wiggle 3000ms infinite;
+          animation: wiggle 3000ms infinite;
+  padding: 0.7em;
+  margin: 0;
+}
+footer p{
+  padding: 0.7em;
+  margin: 0;
+}
 #menus
 { 
 	max-width: 70%;
@@ -57,12 +71,10 @@ footer a
 	margin:auto;
 	flex-direction:column;
 	padding:15px;
+	height:1350px;
 }
-
 .menus_cartes
 { 
-	width: 100%;
-	
 	background-color:white;
 	display:flex;
 	margin:auto;
@@ -72,9 +84,8 @@ footer a
 	align-items: center;
 	padding:15px;
 	text-align:center;
-	margin-bottom:15px;
+	
 }
-
 .menu_note_enchantee, .menu_chic_francais, .menu_delice_des_papilles, .menu_palette_du_gout
 {
 	display:flex;
@@ -83,13 +94,26 @@ footer a
     justify-content: center;
 	box-shadow: 1px 1px 10px #e4e5e4;
 	width: 30%;
-	height:500px;
 	padding:25px;
 	margin:10px;
 	font-size:20px;
+	height:500px;
 }
-
-.menu_note_enchantee
+.menus_bouton {
+    background: #579c87;
+    color: #fcca46;
+    font-size: 20px;
+	margin: 100px auto;
+    cursor: pointer;
+    padding: 0.25rem 1.40rem;
+	border-radius: 1rem;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:150px;
+	
+    }
+	.menu_note_enchantee
 {
 	background:#fcdfdb;
 }
@@ -165,7 +189,6 @@ footer a
 	font-size:25px;
 }
 
-
 .fa-music {
 
   background: linear-gradient(to right, #f05160, #f78f6a);
@@ -173,7 +196,49 @@ footer a
   -webkit-text-fill-color: transparent;
   font-size: 40px;
      }
-	 
+
+@-webkit-keyframes animtroispoints { /* Safari, Opera, Chrome */
+    0% {
+        color: #fcca46;
+    }
+
+    50% {
+        color:#ffe5a2;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@keyframes animtroispoints { /* Tous les autres navigateurs */
+    0% {
+        color: #fcca46;
+    }
+
+    50% {
+        color:#fcca46;
+    }
+
+    100% {
+        color: #579c87;
+    }
+}
+.anim_pt {
+    
+	-webkit-animation: animtroispoints 1s infinite; /* Safari, Opera, Chrome */
+    animation: animtroispoints 1s infinite; /* Tous les autres navigateurs */
+    }
+
+		.anim_pt:nth-child(1)
+		{animation-delay:.25s
+		}
+		.anim_pt:nth-child(2)
+		{animation-delay:.50s
+		}
+		.anim_pt:nth-child(3)
+		{animation-delay:.75s
+		}
 @-webkit-keyframes wiggle {
   1% {
     transform: translateX(-3%);
@@ -209,69 +274,5 @@ footer a
     transform: translateX(0%);
   }
 }
-footer p:hover {
-  -webkit-animation: wiggle 3000ms infinite;
-          animation: wiggle 3000ms infinite;
-  padding: 0.7em;
-  margin: 0;
-}
-footer p{
-  padding: 0.7em;
-  margin: 0;
-}
-.menus_bouton {
-    background: #579c87;
-    color: #fcca46;
-    font-size: 20px;
-	margin: 100px auto;
-    cursor: pointer;
-    padding: 1.05rem 3.40rem;
-	border-radius: 1rem;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	
-    }
-@-webkit-keyframes masuperanimation { /* Safari, Opera, Chrome */
-    0% {
-        color: #fcca46;
-    }
 
-    50% {
-        color:#ffe5a2;
-    }
-
-    100% {
-        color: white;
-    }
-}
-
-@keyframes masuperanimation { /* Tous les autres navigateurs */
-    0% {
-        color: #fcca46;
-    }
-
-    50% {
-        color:#fcca46;
-    }
-
-    100% {
-        color: #579c87;
-    }
-}
-.anim_pt {
-    
-	-webkit-animation: masuperanimation 1s infinite; /* Safari, Opera, Chrome */
-    animation: masuperanimation 1s infinite; /* Tous les autres navigateurs */
-    }
-
-		.anim_pt:nth-child(1)
-		{animation-delay:.25s
-		}
-		.anim_pt:nth-child(2)
-		{animation-delay:.50s
-		}
-		.anim_pt:nth-child(3)
-		{animation-delay:.75s
-		}
 
