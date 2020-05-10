@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) 
+{
+	.detail_menu_note_enchantee
+	{ 
+	max-width: 90%;
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+	padding:15px;
+	box-shadow: 1px 1px 10px #e4e5e4;
+	background:#fcdfdb;
+	margin-bottom:15px;
+	font-family:Alex Brush, verdana;
+	font-size : 18px;
+	}	
+	.detail_menus_titre
+	{
+	font-size:25px;
+	text-align:center;
+	}
+	.detail_menus_header_note
+	{
+	font-size:25px;
+	text-align:center;
+	color:#3c1218;
+	font-family:Alex Brush, verdana;
+	}
+	.intitule
+	{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	justify-content: center;
+	align-items:center;
+	width:100%;
+	}
+	.tarif
+	{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	justify-content: center;
+	align-items:center;
+	width:100%;
+}
+
+	.detail_menus_footer
+	{
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	font-size:10px;
+	padding-bottom:10px;
+	justify-content: center;
+	align-items: center;
+	width:90%;
+	font-family: Shadows Into Light, verdana;
+	}
+	.detail_menus_entree, .detail_menus_plat, .detail_menus_dessert
+	{
+	display:flex;
+	flex-direction:column;
+	margin:auto;
+	padding-bottom:40px;
+	flex-wrap: wrap;
+	justify-content: center;
+	width:100%;
+	font-size:18px;	
+	}
+	
+	.intitule_detail_note
+	{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	margin:auto;
+	width:90%;
+	justify-content:space-between;
+	}
+		img
+		{
+			width:33%;
+			height:8px;
+		}
+		.titre_intitule_note
+		{
+			width:33%;
+			font-size:20px;
+			font-family:Alex Brush, verdana;
+			text-align:center;		
+		}
