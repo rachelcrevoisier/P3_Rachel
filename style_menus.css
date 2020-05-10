@@ -11,7 +11,7 @@
 .detail_menu_note_enchantee
 { 
 	max-width: 50%;
-	height:900px;
+	height:1100px;
 	display:flex;
 	margin:auto;
 	flex-direction:column;
@@ -110,24 +110,7 @@
 	width:30%;
 }
 
-.detail_menus_entree_papilles, .detail_menus_plat_papilles, .detail_menus_dessert_papilles
-{
-	display:flex;
-	flex-direction:row;
-	margin:auto;
-	padding-bottom:40px;
-	justify-content: space-between;
-	width:75%;
-}
-.detail_menus_entree_palette_gout, .detail_menus_plat_palette_gout, .detail_menus_dessert_palette_gout
-{
-	display:flex;
-	flex-direction:row;
-	margin:auto;
-	padding-bottom:40px;
-	justify-content: space-between;
-	width:75%;
-}
+
 .detail_menus_titre
 {
 	font-size:20px;
