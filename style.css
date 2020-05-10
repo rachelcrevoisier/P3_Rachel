@@ -62,7 +62,7 @@ footer a
 .menus_cartes
 { 
 	width: 100%;
-	height :900px;
+	height :1100px;
 	background-color:white;
 	display:flex;
 	margin:auto;
@@ -82,7 +82,7 @@ footer a
     justify-content: center;
 	box-shadow: 1px 1px 10px #e4e5e4;
 	width: 30%;
-	height:400px;
+	height:500px;
 	padding:25px;
 	margin:10px;
 	font-size:20px;
@@ -229,50 +229,41 @@ footer p{
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	
     }
-	.anim_pt{
-		animation:prochainement 2s linear infinite ;
-		
-		}
-	@keyframes prochainement{
-		 from {
+@-webkit-keyframes masuperanimation { /* Safari, Opera, Chrome */
+    0% {
         transform: translateY(0px);
-		opacity: 1;
     }
 
-		33%{
-			opacity: 0.3;
-			transform:translateY(1px)
-				}
-			67%{
-				opacity: 0.6;
-				transform:translateY(2px)
-			}
-			100%
-			{transform:translateY(3px)
-			
-			}
-			}
-	@-webkit-keyframes prochainement{
-		 from {
-        transform: translateY(0px);
-		opacity: 0;
+    50% {
+        transform: translateY(-5px);
     }
 
-		33%{
-			opacity: 0.3;
-			transform:translateY(1px)
-				}
-			67%{
-				opacity: 0.6;
-				transform:translateY(2px)
-			}
-			100%
-			{transform:translateY(3px)
-			
-			}
-			}	
-		
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes masuperanimation { /* Tous les autres navigateurs */
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+.anim_pt {
+    
+	-webkit-animation: masuperanimation 1s infinite; /* Safari, Opera, Chrome */
+    animation: masuperanimation 1s infinite; /* Tous les autres navigateurs */
+    }
+
 		.anim_pt:nth-child(1)
 		{animation-delay:.25s
 		}
