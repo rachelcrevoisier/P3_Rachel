@@ -20,7 +20,7 @@
 	background:#fcdfdb;
 	margin-bottom:105px;
 	font-family:Alex Brush, verdana;
-	font-size : 18px;
+	font-size : 22px;
 }
 
 .detail_menu_chic_francais
@@ -93,7 +93,7 @@
 	padding-bottom:40px;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width:75%;
+	width:80%;
 }
 .detail_menus_entree_note, .detail_menus_plat_note, .detail_menus_dessert_note
 {
