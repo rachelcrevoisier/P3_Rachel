@@ -167,7 +167,6 @@
 		}
 		.titre_intitule_note
 		{
-			width:40%;
 			font-size:20px;
 			font-family:Alex Brush, verdana;
 			text-align:center;
@@ -192,7 +191,6 @@
 		}
 		.titre_intitule_chic_francais
 		{
-			width:40%;
 			font-size:20px;
 			font-family: Parisienne,verdana;
 			text-align:center;
@@ -212,15 +210,12 @@
 		{
 			width:33%;
 			height:8px;
-			
 		}
 		.titre_intitule_delice_papilles
 		{
-			width:40%;
 			font-size:20px;
 			font-family:Dancing Script, verdana;
 			text-align:center;
-			
 		}
 .intitule_detail_palette_gout
 {
@@ -240,10 +235,10 @@
 		}
 		.titre_intitule_palette_gout
 		{
-			width:40%;
 			font-size:20px;
 			font-family: Shadows Into Light, verdana;
 			text-align:center;
+			text-decoration:none;
 			
 		}
 }
