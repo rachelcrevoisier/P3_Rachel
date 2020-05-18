@@ -44,7 +44,6 @@ footer
 	font-size:25px;
 	height:35px;
 	position:fixed;
-	
 	left:0;
 	bottom:0;
 }
@@ -103,7 +102,7 @@ footer p{
     background: #579c87;
     color: #fcca46;
     font-size: 20px;
-	margin: 100px auto;
+	margin: 70px auto;
     cursor: pointer;
     padding: 0.25rem 1.40rem;
 	border-radius: 1rem;
